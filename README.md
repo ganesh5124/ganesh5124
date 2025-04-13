@@ -7,8 +7,15 @@ I enjoy building scalable systems, optimizing deployment pipelines, and enabling
 - 🛠️ CI/CD: GitHub Actions, Jenkins
 - 🐧 OS: Linux, Shell Scripting
 - 📦 Monitoring: Prometheus, Grafana, ELK Stack
+-  Scripting: Bash, Shell
 
-### 💡 What I’m working on
+#### 💻 Programming & Development
+- Frontend: JavaScript, AngularJS
+- Languages: Python, C, C++ 
+- Backend: Node.js
+- Database: MySQL
+
+### 💡 What I’m busy on
 - Improving infrastructure as code practices
 - Kubernetes deployments
 - Automating cloud-native deployments
