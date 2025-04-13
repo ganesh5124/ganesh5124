@@ -1,16 +1,18 @@
-## Hi there 👋
+Hi, I'm a Cloud and DevOps Engineer passionate about automation, cloud infrastructure, and CI/CD.  
+I enjoy building scalable systems, optimizing deployment pipelines, and enabling smooth developer experiences.
 
-<!--
-**ganesh5124/ganesh5124** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🚀 Skills & Tools
+- 🧰 DevOps: Docker, Kubernetes, Helm, Terraform, Ansible
+- ☁️ Cloud: AWS, Azure
+- 🛠️ CI/CD: GitHub Actions, Jenkins
+- 🐧 OS: Linux, Shell Scripting
+- 📦 Monitoring: Prometheus, Grafana, ELK Stack
 
-Here are some ideas to get you started:
+### 💡 What I’m working on
+- Improving infrastructure as code practices
+- Kubernetes deployments
+- Automating cloud-native deployments
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 📫 Let's Connect
+- [LinkedIn](https://www.linkedin.com/in/pepakayala-veera-ganesh-kumar-55b059352/)
+- [GitHub](https://github.com/ganesh5124)
