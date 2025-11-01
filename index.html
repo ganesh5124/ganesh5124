@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Name – Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav id="navbar">
+  <div class="container nav-wrapper">
+    <a href="#" class="logo">YourName</a>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="container hero-content">
+    <h1>Hi, I'm <span class="accent">Your Name</span></h1>
+    <p>Full-Stack Developer & UI Designer</p>
+    <a href="#projects" class="btn">See My Work</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container about-wrapper">
+    <img src="https://via.placeholder.com/300" alt="Your photo" class="about-img">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        I craft responsive web applications with clean code and thoughtful design.
+        Currently focused on React, Node, and cloud deployment.
+        When I'm not coding you'll find me hiking or contributing to open-source.
+      </p>
+      <a href="assets/resume.pdf" target="_blank" class="btn secondary">Download CV</a>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <h2>Featured Projects</h2>
+    <div class="project-grid">
+
+      <!-- Project 1 -->
+      <article class="project-card">
+        <img src="https://via.placeholder.com/600x400" alt="Project screenshot">
+        <div class="project-info">
+          <h3>E-Commerce Platform</h3>
+          <p>React, Redux, Stripe API, Firebase</p>
+          <div class="project-links">
+            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://example.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project-card">
+        <img src="https://via.placeholder.com/600x400" alt="Project screenshot">
+        <div class="project-info">
+          <h3>Task Manager SaaS</h3>
+          <p>Next.js, Prisma, PostgreSQL, Tailwind</p>
+          <div class="project-links">
+            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://example.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="project-card">
+        <img src="https://via.placeholder.com/600x400" alt="Project screenshot">
+        <div class="project-info">
+          <h3>Weather Dashboard</h3>
+          <p>Vue 3, Chart.js, OpenWeather API</p>
+          <div class="project-links">
+            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://example.com" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <h2>Skills & Tools</h2>
+    <div class="skills-grid">
+      <div class="skill">JavaScript (ES6+)</div>
+      <div class="skill">React</div>
+      <div class="skill">Node.js</div>
+      <div class="skill">Express</div>
+      <div class="skill">MongoDB</div>
+      <div class="skill">PostgreSQL</div>
+      <div class="skill">Git & GitHub</div>
+      <div class="skill">Figma</div>
+      <div class="skill">Docker</div>
+      <div class="skill">AWS</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container contact-wrapper">
+    <h2>Let's Connect</h2>
+    <p>Feel free to reach out for collaborations or just a friendly hello.</p>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="_replyto" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div class="social">
+      <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <p>© <span id="year"></span> Your Name. Built with ❤️ and vanilla code.</p>
+  </div>
+</footer>
+
+<script>
+  /* Mobile nav toggle */
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.querySelector('.nav-links');
+  hamburger.addEventListener('click', () => navLinks.classList.toggle('open'));
+
+  /* Dynamic year */
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
